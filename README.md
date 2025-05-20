@@ -139,14 +139,15 @@ f. Semantic Filtering
 
 g. Refined Prompt Example
 "Write a philosophical sci-fi short story about an AI that gains sentience. Use 5 sections: Setting, Character, Conflict, Climax, Resolution. End with an epilogue set 10 years later. Focus on emotional depth and existential themes."
-## Output 
-| Dimension        | Evaluation Focus                                                       |
-| ---------------- | ---------------------------------------------------------------------- |
-| **Accuracy**     | Are facts (for non-fiction) or story logic (for fiction) consistent?   |
-| **Originality**  | Is the content novel and engaging?                                     |
-| **Tone & Style** | Does it match the desired semantic filter (e.g., formal, imaginative)? |
-| **Coherence**    | Are transitions and logic between sections smooth?                     |
-| **Structure**    | Is the format aligned with the prompt (headings, story arc, etc.)?     |
+## Output Evaluation
+
+| Criteria           | Climate Change Article | Sci-Fi Short Story |
+| ------------------ | ---------------------- | ------------------ |
+| **Coherence**      | High                   | High               |
+| **Creativity**     | Medium                 | High               |
+| **Accuracy**       | High                   | N/A (Fiction)      |
+| **Tone and Style** | Educational            | Suspenseful        |
+
 
 
 ## Conclusion:
