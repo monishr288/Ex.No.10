@@ -1,8 +1,8 @@
 # Ex.No.10
 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-## Date:
-## Reg. No.
+## Date: 16.5.25
+## Reg no : 212223220061
 
 ## Aim:
 To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
@@ -61,6 +61,93 @@ content generation scenarios:
 2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
 3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
 4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
+
+## Methodology
+| Pattern                 | Description                                                                               |
+| ----------------------- | ----------------------------------------------------------------------------------------- |
+| **Query Decomposition** | Break down complex instructions into smaller, manageable sub-prompts.                     |
+| **Decision Making**     | Introduce choices to guide model response (e.g., "Should the tone be formal or casual?"). |
+| **Answer Engineering**  | Specify structure (e.g., headings, bullet points, formatting).                            |
+| **Fact Check List**     | Insert a checklist for factual accuracy prompts.                                          |
+| **Tail Generation**     | Ask the AI to extend stories/articles coherently.                                         |
+| **Menu Actions**        | Present style or direction choices (e.g., “Would you like a case study or a story?”).     |
+| **Semantic Filtering**  | Control tone/style (e.g., "Write with a neutral and informative voice").                  |
+## Test Case 1: Article on Climate Change
+* Base Prompt
+"Write an article on climate change."
+
+* With Prompt Patterns
+a. Query Decomposition
+"List the major causes of climate change. Then explain how they affect the environment. Conclude with solutions."
+
+b. Decision Making
+"Write an article on climate change. Choose either a scientific or journalistic tone."
+
+c. Answer Engineering
+"Write an article with the following structure:
+
+Introduction
+
+Causes of Climate Change
+
+Environmental Impact
+
+Solutions
+
+Conclusion"
+
+d. Semantic Filtering
+"Use a neutral, evidence-based tone. Cite at least two scientific findings."
+
+e. Fact Check List
+"Before concluding, include a checklist to validate the scientific accuracy of claims."
+
+f. Refined Prompt Example
+"Write a journalistic article on climate change using a neutral, evidence-based tone. Structure it into:
+
+Introduction
+
+Human and Natural Causes
+
+Global Impact (include real data)
+
+Scientific Solutions
+
+Summary with fact-check checklist."
+## Test Case 2: Creative Writing – Sci-Fi Short Story
+* Base Prompt
+"Write a sci-fi short story about AI."
+
+* With Prompt Patterns
+a. Query Decomposition
+"Describe the world setting. Introduce a main character. Then narrate a conflict involving AI. Resolve the conflict."
+
+b. Decision Making
+"Should the story focus on dystopia, utopia, or techno-thriller? Choose one."
+
+c. Answer Engineering
+"Use 5 sections: Setting, Character, Conflict, Climax, Resolution."
+
+d. Tail Generation
+"Extend the ending by adding an epilogue showing the aftermath 10 years later."
+
+e. Menu Actions
+"Would you like the story to be serious, humorous, or philosophical?"
+
+f. Semantic Filtering
+"Write in a vivid, imaginative tone with sensory details."
+
+g. Refined Prompt Example
+"Write a philosophical sci-fi short story about an AI that gains sentience. Use 5 sections: Setting, Character, Conflict, Climax, Resolution. End with an epilogue set 10 years later. Focus on emotional depth and existential themes."
+## Output 
+| Dimension        | Evaluation Focus                                                       |
+| ---------------- | ---------------------------------------------------------------------- |
+| **Accuracy**     | Are facts (for non-fiction) or story logic (for fiction) consistent?   |
+| **Originality**  | Is the content novel and engaging?                                     |
+| **Tone & Style** | Does it match the desired semantic filter (e.g., formal, imaginative)? |
+| **Coherence**    | Are transitions and logic between sections smooth?                     |
+| **Structure**    | Is the format aligned with the prompt (headings, story arc, etc.)?     |
+
 
 ## Conclusion:
 By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
